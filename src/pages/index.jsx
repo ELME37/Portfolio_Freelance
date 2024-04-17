@@ -24,6 +24,7 @@ export default function Home() {
       <main >
         <LayoutDefault>
           <PopUp isVisible={isVisiblePopUp} onClose={closePopUp}>Site internet en cours de développement</PopUp>
+          <p>test</p>
         </LayoutDefault>
       </main>
     </>
