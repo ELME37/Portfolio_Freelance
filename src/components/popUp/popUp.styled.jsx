@@ -32,6 +32,18 @@ export const ContainerGlobal = styled.div `
     padding: 10px 40px;
     border-radius: 10px;
     z-index: 9999;
+
+    @media (max-width: 1000px) {
+        width: 80%;
+    }
+
+    @media (max-width: 500px) {
+        padding: 10px 20px;
+    }
+
+    @media (max-width: 400px) {
+        padding: 10px 10px;
+    }
 `;
 
 export const ContainerNews= styled.div `
@@ -53,6 +65,10 @@ export const TextPopUp= styled.p `
     font-style: italic;
     font-weight: bold;
     color: ${colors.dark2};
+
+    @media (max-width: 400px) {
+        margin-left: 16px;
+    }
 `;
 
 export const Svg= styled.svg `
