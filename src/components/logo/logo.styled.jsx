@@ -1,5 +1,5 @@
 import styled from "styled-components";
 
 export const Root = styled.img `
-    width: 100%;
+    width: 120px;
 `;
