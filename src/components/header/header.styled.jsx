@@ -33,8 +33,8 @@ export const Label = styled.label`
 `;
 
 export const Svg = styled.svg`
-    width: 34px;
-    height: 34px;
+    width: 40px;
+    height: 40px;
     fill: ${colors.gold};
 `;
 
