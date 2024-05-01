@@ -1,5 +1,7 @@
-import Document from 'next/document'
+import Document, { Head, Html, Main, NextScript } from 'next/document'
 import { ServerStyleSheet } from 'styled-components'
+
+import { cormorantGaramond, quicksand } from '@/utils/fonts'
 
 export default class MyDocument extends Document {
   static async getInitialProps(ctx) {
@@ -26,5 +28,19 @@ export default class MyDocument extends Document {
     } finally {
       sheet.seal()
     }
+  }
+
+  render() {
+    return (
+      <Html lang="fr" className={`${cormorantGaramond.variable} ${quicksand.variable}`}>
+        <Head>
+          <link rel="icon" href="/favicon.ico" />
+        </Head>
+        <body>
+          <Main />
+          <NextScript />
+        </body>
+      </Html>
+    )
   }
 }
