@@ -7,7 +7,7 @@ import Header from "@/components/header";
 import About from "@/containers/about";
 
 import { Main } from "@/assets/styles/main.styled";
-import { SectionHome } from "./home/home.styled";
+import { SectionHome } from "./home.styled";
 
 export default function Home() {
   const [isVisiblePopUp, setIsVisiblePopUp] = useState (true)
