@@ -5,6 +5,7 @@ import LayoutDefault from "@/containers/layout";
 import PopUp from "@/components/popUp";
 import Header from "@/components/header";
 import About from "@/containers/about";
+import Footer from "@/components/footer";
 
 import { Main } from "@/assets/styles/main.styled";
 import { SectionHome } from "../assets/styles/home.styled";
@@ -26,11 +27,12 @@ export default function Home() {
       <LayoutDefault>
           <Main>
             <SectionHome id="home">
-        
+              
             </SectionHome>
             <About/>
             <PopUp isVisible={isVisiblePopUp} onClose={closePopUp}>Site internet en cours de développement</PopUp>
         </Main>
+        <Footer/>
       </LayoutDefault>
     </>
   );

@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 
-import LayoutDefault from '@/containers/layout';
+import { handleScroll } from '@/utils/scroll';
 
+import LayoutDefault from '@/containers/layout';
 import Logo from '../logo';
 
 import { Root, Container, Label, Svg, Input, Navigation, List, Item, LinkHeader, Span} from './header.styled';
@@ -11,29 +12,7 @@ export default function Header () {
 
     useEffect(() => {
         function scroll() {
-            const sections = [
-                { id: 'home', className: 'home'},
-                { id: 'about', className: 'about'},
-                { id: 'service', className: 'service'},
-                { id: 'portfolio', className: 'portfolio'},
-                { id: 'price', className: 'price'},
-                { id: 'feedback', className: 'feedback'},
-                { id: 'contact', className: 'contact'},
-            ];
-
-            let currentSection = '';
-
-            for (const section of sections) {
-                const targetElement = document.getElementById(section.id);
-                if (targetElement) {
-                    const { top } = targetElement.getBoundingClientRect();
-                    if (top <= 120) {
-                        currentSection = section.className;
-                    }
-                }
-            }
-
-            setActiveSection(currentSection);
+            handleScroll(setActiveSection);
         }
 
         window.addEventListener('scroll', scroll);
@@ -42,6 +21,7 @@ export default function Header () {
             window.removeEventListener('scroll', scroll);
         };
     }, []);
+    
     return (
         <Root>
             <LayoutDefault>

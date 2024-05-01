@@ -21,6 +21,7 @@ export const Root = styled.div `
     justify-content: center;
     align-items: center;
     animation: ${slideIn} 1s ease-in-out forwards 1s;
+    z-index: 99;
 `;
 
 export const ContainerGlobal = styled.div `

@@ -17,6 +17,7 @@
     "styled-components": "^6.1.8"
   },
   "devDependencies": {
+    "dotenv": "^16.4.5",
     "eslint": "^8",
     "eslint-config-next": "14.2.1"
   }
