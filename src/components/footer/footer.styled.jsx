@@ -145,7 +145,6 @@ export const SvgEmail = styled(Svg)`
 export const Span = styled.span`
     font-size: 12px;
     font-family: var(--quicksand), serif;
-    text-transform: capitalize;
     text-align: center;
     letter-spacing: 1px;
     color: ${colors.gray};
