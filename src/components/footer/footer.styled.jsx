@@ -8,6 +8,7 @@ import { quicksand } from "@/utils/fonts";
 export const Root = styled.footer`
     display: flex;
     flex-direction: column;
+    margin-top: 100px;
 `;
 
 export const ContainerGeneral = styled.div`
@@ -59,7 +60,6 @@ export const Text = styled.p`
 export const Copyright = styled(Text)`
     font-size: 14px;
     font-family: var(--quicksand), serif;
-    text-transform: capitalize;
     text-align: center;
     letter-spacing: 1px;
     color: ${colors.gray};
@@ -103,54 +103,4 @@ export const NavigationLink = styled(Link)`
     &:hover {
         color: ${colors.gold};
     }
-`;
-
-export const ContainerLinks = styled.div`
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-
-    @media (max-width: 300px) {
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-`;
-
-export const NetworkLink = styled.a`
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0 10px;
-    cursor: pointer;
-`;
-
-export const Svg = styled.svg`
-    width: 30px;
-    height: 30px;
-`;
-
-export const SvgLinkedIn = styled(Svg)`
-    fill: rgb(0, 119, 181);
-`;
-
-export const SvgGitHub = styled(Svg)`
-    fill: ${colors.white};
-`;
-
-export const SvgEmail = styled(Svg)`
-    fill: ${colors.gold};
-`;
-
-export const Span = styled.span`
-    font-size: 12px;
-    font-family: var(--quicksand), serif;
-    text-align: center;
-    letter-spacing: 1px;
-    color: ${colors.gray};
-    margin-top: 10px;
-`;
-
-export const Image = styled.img`
-    width: 30px;
 `;

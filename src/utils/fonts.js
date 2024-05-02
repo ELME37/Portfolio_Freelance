@@ -1,9 +1,4 @@
-import {Cormorant_Garamond, Quicksand, Roboto} from '@next/font/google'
-
-export const fonts = {
-    font1: 'Cormorant Garamond, serif',
-    font2: 'Quicksand, sans-serif',
-  };
+import {Cormorant_Garamond, Quicksand, Roboto} from "next/font/google"
 
 export const cormorantGaramond = Cormorant_Garamond({
   subsets: ['latin'],

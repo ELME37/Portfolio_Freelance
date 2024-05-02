@@ -4,11 +4,16 @@ import Head from "next/head";
 import LayoutDefault from "@/containers/layout";
 import PopUp from "@/components/popUp";
 import Header from "@/components/header";
+import SectionHome from "@/containers/section_Home";
 import SectionAbout from "@/containers/section_About";
+import SectionService from "@/containers/section_Service";
+import SectionPortfolio from "@/containers/section_Portfolio";
+import SectionPrice from "@/containers/section_Price";
+import SectionFeedback from "@/containers/section_Feedback";
+import SectionContact from "@/containers/section_Contact";
 import Footer from "@/components/footer";
 
 import { Main } from "@/assets/styles/main.styled";
-import { SectionHome } from "../assets/styles/home.styled";
 
 export default function Home() {
   const [isVisiblePopUp, setIsVisiblePopUp] = useState (true)
@@ -26,10 +31,13 @@ export default function Home() {
       <Header/>
       <LayoutDefault>
           <Main>
-            <SectionHome id="home">
-              
-            </SectionHome>
+            <SectionHome/>
             <SectionAbout/>
+            <SectionService/>
+            <SectionPortfolio/>
+            <SectionPrice/>
+            <SectionFeedback/>
+            <SectionContact/>
             <PopUp isVisible={isVisiblePopUp} onClose={closePopUp}>Site internet en cours de développement</PopUp>
         </Main>
         <Footer/>
