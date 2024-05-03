@@ -150,14 +150,14 @@ export const ContainerImage = styled.div`
 
 export const Image = styled.img`
     position: absolute;
-    top: -100px;
+    top: -60px;
     width: 680px;
     border-radius: 73% 27% 19% 81% / 56% 71% 29% 44%;
     z-index: 1;
     
     @media (max-width: 1150px) {
         width: 590px;
-        top: -50px;
+        top: -30px;
     }
 
     @media (max-width: 1000px) {
@@ -166,11 +166,11 @@ export const Image = styled.img`
     }
 
     @media (max-width: 600px) {
-        width: 98%;
+        width: 96%;
         top: -6%;
     }
 
-    @media (max-width: 600px) {
+    @media (max-width: 400px) {
         width: 100%;
     }
 `;
@@ -181,14 +181,14 @@ export const ContainerCitation = styled.div`
     justify-content: center;
     align-items: center;
     margin-top: 100px;
-    padding: 100px;
+    padding: 100px 100px 0 100px;
 
     @media (max-width: 1000px) {
         margin-top: 0;
     }
 
     @media (max-width: 800px) {
-        padding: 80px;
+        padding: 80px 80px 0 80px;
     }
 
     @media (max-width: 800px) {

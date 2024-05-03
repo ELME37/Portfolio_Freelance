@@ -10,10 +10,12 @@ import { Root, Container, Label, Svg, Input, Navigation, List, Item, LinkHeader,
 export default function Header () {
     const [activeSection, setActiveSection] = useState('');
     const [isChecked, setIsChecked] = useState(false);
+    const [scrollPosition, setScrollPosition] = useState(0);
 
     useEffect(() => {
         function scroll() {
             handleScroll(setActiveSection);
+            setScrollPosition(window.scrollY);
         }
 
         window.addEventListener('scroll', scroll);
@@ -28,7 +30,7 @@ export default function Header () {
     };
     
     return (
-        <Root>
+        <Root $scrolled={scrollPosition > 0}>
             <LayoutDefault>
                 <Container>
                     <Logo/>

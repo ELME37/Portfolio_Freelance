@@ -13,6 +13,10 @@ export const Root = styled.header`
     top: 0;
     z-index: 999;
     background: ${colors.darkbg};
+
+    ${props => props.$scrolled && `
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    `}
 `;
 
 export const Container = styled.div`

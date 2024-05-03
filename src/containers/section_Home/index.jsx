@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 import NetworkLinks from '@/components/networkLinks';
 import Button from '@/components/button';
@@ -20,7 +21,11 @@ export default function SectionHome () {
                         <NetworkLinks/>
                         <TextJob>Développeur front-end spécialisé en ReactJS / NextJS, créateur de solutions web innovantes et performantes.</TextJob>
                         <Text>À la recherche d&apos;un partenaire pour concrétiser vos projets web ? Ensemble, nous pouvons créer des solutions innovantes et personnalisées qui répondent à vos besoins. Contactez-moi pour commencer cette aventure.</Text>
-                        <Button>Portfolio</Button>
+                        <Link href="/#portfolio">
+                            <Button>
+                                Portfolio
+                            </Button>
+                        </Link>
                     </ContainerDescription>
                 </ContainerDeveloperDescription>
                 <ContainerImage>
