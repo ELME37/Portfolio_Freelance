@@ -27,7 +27,7 @@ export const MessageUserStyle = styled.p`
         max-width: 80%;
     }
 
-    @media (max-width: 400px) {
+    @media (max-width: 450px) {
         max-width: 100%;
     }
 `;

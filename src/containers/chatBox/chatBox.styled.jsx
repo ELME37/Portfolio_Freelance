@@ -103,7 +103,8 @@ export const ContainerChat = styled.div`
     }
 
     @media (max-width: 600px) {
-        max-height: 800px;;
+        max-height: 800px;
+        padding-left: 0;
     }
 `;
 
