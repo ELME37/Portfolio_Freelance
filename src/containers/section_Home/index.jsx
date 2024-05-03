@@ -1,14 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 
-import {Cormorant_Garamond} from "next/font/google"
-
-export const cormorantGaramond = Cormorant_Garamond({
-  subsets: ['latin'],
-  weight: '400',
-  variable: '--cormorant-garamond',
-
-})
+import { cormorantGaramond } from '@/utils/fonts';
 
 import NetworkLinks from '@/components/networkLinks';
 import Button from '@/components/button';
