@@ -4,7 +4,7 @@ import NetworkLinks from '@/components/networkLinks';
 import Button from '@/components/button';
 
 import { Root, ContainerTitleSection, LignTitle, TitleSection, ContainerDeveloper, ContainerDeveloperDescription, Title,
-    ContainerDescription, Text, ContainerImage, Image, ContainerCitation, Citation, LignCitation } from './home.styled';
+    ContainerDescription, Text, TextJob, ContainerImage, Image, ContainerCitation, Citation, LignCitation } from './home.styled';
 
 export default function SectionHome () {
     return (
@@ -18,7 +18,7 @@ export default function SectionHome () {
                     <Title>Mickaël TURQUAIS</Title>
                     <ContainerDescription>
                         <NetworkLinks/>
-                        <Text>Développeur front-end spécialisé en ReactJS / NextJS, créateur de solutions web innovantes et performantes.</Text>
+                        <TextJob>Développeur front-end spécialisé en ReactJS / NextJS, créateur de solutions web innovantes et performantes.</TextJob>
                         <Text>À la recherche d&apos;un partenaire pour concrétiser vos projets web ? Ensemble, nous pouvons créer des solutions innovantes et personnalisées qui répondent à vos besoins. Contactez-moi pour commencer cette aventure.</Text>
                         <Button>Portfolio</Button>
                     </ContainerDescription>

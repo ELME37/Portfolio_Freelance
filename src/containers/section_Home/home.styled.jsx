@@ -86,12 +86,20 @@ export const ContainerDescription = styled.div`
     }
 `;
 
-export const Text = styled.p`
-    font-size: 14px;
+export const TextJob = styled.p`
+    font-size: 16px;
     font-family: var(--quicksand), serif;
-    text-align: justify;
+    text-align: start;
     color: ${colors.gray};
-    margin: 20px 0;
+    margin: 50px 0 20px 0;
+`;
+
+export const Text = styled.p`
+    font-size: 16px;
+    font-family: var(--quicksand), serif;
+    text-align: start;
+    color: ${colors.gray};
+    margin-bottom: 50px;
 `;
 
 export const ContainerImage = styled.div`
