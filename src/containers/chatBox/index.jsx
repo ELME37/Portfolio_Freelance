@@ -57,7 +57,7 @@ export default function ChatBox () {
                     </MessageBot>
                     <MessageUser>Quels sont vos atouts distinctifs qui vous différencient des autres professionnels du secteur ?</MessageUser>
                     <MessageBot>Ce qui me distingue, c&apos;est mon engagement absolu envers la satisfaction du client. Ma priorité est de m&apos;assurer que mes clients obtiennent une valeur exceptionnelle pour leur investissement. Je m&apos;efforce constamment de comprendre les besoins uniques de chaque client et de fournir des solutions sur mesure qui dépassent leurs attentes. Mon approche est profondément axée sur le client, mettant en avant leur vision et leurs objectifs. Avec mon expérience diversifiée et mes compétences techniques solides, je suis en mesure de transformer cette vision en réalité. De plus, je m&apos;engage à maintenir une communication ouverte et transparente à chaque étape du projet, garantissant que vous êtes toujours informé et satisfait du progrès réalisé.</MessageBot>
-                    <MessageUser>Êtes-vous disponible pour commencer un nouveau projet ?"</MessageUser>
+                    <MessageUser>Êtes-vous disponible pour commencer un nouveau projet ?</MessageUser>
                     <MessageBot>
                         Si vous êtes intéressé par la possibilité de travailler ensemble sur votre projet, je vous encourage à poursuivre sur la section contact. Cela nous permettra d&apos;échanger davantage et de discuter des détails de votre projet, afin de déterminer comment je pourrais vous aider à atteindre vos objectifs.<br/><br/>
                         <Link href="/#contact">
