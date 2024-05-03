@@ -4,6 +4,8 @@ import Link from 'next/link';
 import MessageBot from '@/components/messages/messageBot';
 import MessageUser from '@/components/messages/messageUser';
 
+import { cormorantGaramond } from "@/utils/fonts";
+
 import { Root, ContainerHeaderChat, Name, Statut, ContainerBox, ContainerIntro, Intro, ContainerChat, Button } from './chatBox.styled';
 
 export default function ChatBox () {
@@ -11,12 +13,12 @@ export default function ChatBox () {
         <Root>
             
             <ContainerHeaderChat>
-                <Name>Mickaël TURQUAIS</Name>
-                <Statut>En ligne</Statut>
+                <Name className={cormorantGaramond.variable}>Mickaël TURQUAIS</Name>
+                <Statut className={cormorantGaramond.variable}>En ligne</Statut>
             </ContainerHeaderChat>
             <ContainerBox>
                 <ContainerIntro>
-                    <Intro>Cher visiteur, permettez-moi de vous guider à travers cet échange qui vous permettra de découvrir votre hôte.</Intro>
+                    <Intro className={cormorantGaramond.variable}>Cher visiteur, permettez-moi de vous guider à travers cet échange qui vous permettra de découvrir votre hôte.</Intro>
                 </ContainerIntro>
                 <ContainerChat>
                     <MessageUser>Bonjour</MessageUser>
@@ -35,7 +37,7 @@ export default function ChatBox () {
                     <MessageBot>
                         Vous pouvez trouver une sélection de mes principaux projets variés dans la section portfolio.<br/><br/>
                         <Link href="/#portfolio">
-                            <Button>Portfolio</Button>
+                            <Button className={cormorantGaramond.variable}>Portfolio</Button>
                         </Link>
                     </MessageBot>
                 </ContainerChat>

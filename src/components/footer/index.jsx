@@ -3,6 +3,8 @@ import React from 'react';
 import Logo from '../logo';
 import NetworkLinks from '../networkLinks';
 
+import { quicksand } from "@/utils/fonts";
+
 import { Root, ContainerGeneral, ContainerDeveloper, ContainerNavigationAndLinks, Text, Copyright, Navigation, List, Item, NavigationLink } from './footer.styled';
 
 export default function Footer () {
@@ -11,43 +13,43 @@ export default function Footer () {
             <ContainerGeneral>
                 <ContainerDeveloper>
                     <Logo/>
-                    <Text>Développeur front-end spécialisé en ReactJS / NextJS, créateur de solutions web innovantes et performantes.</Text>
+                    <Text className={quicksand.variable}>Développeur front-end spécialisé en ReactJS / NextJS, créateur de solutions web innovantes et performantes.</Text>
                 </ContainerDeveloper>
                 <ContainerNavigationAndLinks>
                     <Navigation>
                         <List>
                             <Item>
-                                <NavigationLink href="/">
+                                <NavigationLink className={quicksand.variable} href="/">
                                     Accueil
                                 </NavigationLink>
                             </Item>
                             <Item>
-                                <NavigationLink href="/#about">
+                                <NavigationLink className={quicksand.variable} href="/#about">
                                     A propos
                                 </NavigationLink>
                             </Item>
                             <Item>
-                                <NavigationLink href="/#service">
+                                <NavigationLink className={quicksand.variable} href="/#service">
                                     Services
                                 </NavigationLink>
                             </Item>
                             <Item>
-                                <NavigationLink href="/#portfolio">
+                                <NavigationLink className={quicksand.variable} href="/#portfolio">
                                     Portfolio
                                 </NavigationLink>
                             </Item>
                             <Item>
-                                <NavigationLink href="/price">
+                                <NavigationLink className={quicksand.variable} href="/price">
                                     Tarifs
                                 </NavigationLink>
                             </Item>
                             <Item>
-                                <NavigationLink href="/#feedback">
+                                <NavigationLink className={quicksand.variable} href="/#feedback">
                                     Feedback
                                 </NavigationLink>
                             </Item>
                             <Item>
-                                <NavigationLink href="/#contact">
+                                <NavigationLink className={quicksand.variable} href="/#contact">
                                     Contact
                                 </NavigationLink>
                             </Item>
@@ -56,7 +58,7 @@ export default function Footer () {
                     <NetworkLinks/>
                 </ContainerNavigationAndLinks>
             </ContainerGeneral>
-            <Copyright>Conception et réalisation par Mickaël TURQUAIS &copy; 2024 - Tous droits réservés.</Copyright>
+            <Copyright className={quicksand.variable}>Conception et réalisation par Mickaël TURQUAIS &copy; 2024 - Tous droits réservés.</Copyright>
         </Root>
     );
 };

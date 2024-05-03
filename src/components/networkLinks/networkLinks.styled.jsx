@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 import { colors } from "@/utils/colors";
+import { quicksand } from "@/utils/fonts";
 
 export const ContainerLinks = styled.div`
     display: flex;

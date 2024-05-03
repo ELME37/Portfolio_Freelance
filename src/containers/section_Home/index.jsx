@@ -1,7 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
 
-import { cormorantGaramond } from '@/utils/fonts';
+import { cormorantGaramond } from "@/utils/fonts";
+import { quicksand } from "@/utils/fonts";
 
 import NetworkLinks from '@/components/networkLinks';
 import Button from '@/components/button';
@@ -14,15 +15,15 @@ export default function SectionHome () {
         <Root id='home'>
             <ContainerTitleSection>
                 <LignTitle></LignTitle>
-                <TitleSection>Développeur Web Freelance Full Remote</TitleSection>
+                <TitleSection className={quicksand.variable}>Développeur Web Freelance Full Remote</TitleSection>
             </ContainerTitleSection>
             <ContainerDeveloper>
                 <ContainerDeveloperDescription>
                     <Title className={cormorantGaramond.variable}>Mickaël TURQUAIS</Title>
                     <ContainerDescription>
                         <NetworkLinks/>
-                        <TextJob>Développeur front-end spécialisé en ReactJS / NextJS, créateur de solutions web innovantes et performantes.</TextJob>
-                        <Text>À la recherche d&apos;un partenaire pour concrétiser vos projets web ? Ensemble, nous pouvons créer des solutions innovantes et personnalisées qui répondent à vos besoins. Contactez-moi pour commencer cette aventure.</Text>
+                        <TextJob className={quicksand.variable}>Développeur front-end spécialisé en ReactJS / NextJS, créateur de solutions web innovantes et performantes.</TextJob>
+                        <Text className={quicksand.variable}>À la recherche d&apos;un partenaire pour concrétiser vos projets web ? Ensemble, nous pouvons créer des solutions innovantes et personnalisées qui répondent à vos besoins. Contactez-moi pour commencer cette aventure.</Text>
                         <Link href="/#portfolio">
                             <Button>
                                 Portfolio
@@ -35,7 +36,7 @@ export default function SectionHome () {
                 </ContainerImage>
             </ContainerDeveloper>
             <ContainerCitation>
-                <Citation>&quot;L&apos;innovation naît de la collaboration. En tant que développeur web, chaque ligne de code que nous écrivons est une invitation à repousser les limites de ce qui est possible, en travaillant main dans la main avec nos clients pour créer des solutions technologiques qui transforment leur vision en réalité.&quot;</Citation>
+                <Citation className={cormorantGaramond.variable}>&quot;L&apos;innovation naît de la collaboration. En tant que développeur web, chaque ligne de code que nous écrivons est une invitation à repousser les limites de ce qui est possible, en travaillant main dans la main avec nos clients pour créer des solutions technologiques qui transforment leur vision en réalité.&quot;</Citation>
                 <LignCitation></LignCitation>
             </ContainerCitation>
         </Root>

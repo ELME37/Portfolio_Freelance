@@ -5,6 +5,8 @@ import { handleScroll } from '@/utils/scroll';
 import LayoutDefault from '@/containers/layout';
 import Logo from '../logo';
 
+import { cormorantGaramond } from "@/utils/fonts";
+
 import { Root, Container, Label, Svg, Input, Navigation, List, Item, LinkHeader, Span} from './header.styled';
 
 export default function Header () {
@@ -44,37 +46,37 @@ export default function Header () {
                         <List>
                             <Item>
                                 <LinkHeader href="/" onClick={handleCheckboxChange}>
-                                    <Span $active={activeSection === 'home'}>Accueil</Span>
+                                    <Span className={cormorantGaramond.variable} $active={activeSection === 'home'}>Accueil</Span>
                                 </LinkHeader>
                             </Item>
                             <Item>
                                 <LinkHeader href="/#about" onClick={handleCheckboxChange}>
-                                    <Span $active={activeSection === 'about'}>A propos</Span>
+                                    <Span className={cormorantGaramond.variable} $active={activeSection === 'about'}>A propos</Span>
                                 </LinkHeader>
                             </Item>
                             <Item>
                                 <LinkHeader href="#service" onClick={handleCheckboxChange}>
-                                    <Span $active={activeSection === 'service'}>Services</Span>
+                                    <Span className={cormorantGaramond.variable} $active={activeSection === 'service'}>Services</Span>
                                 </LinkHeader>
                             </Item>
                             <Item>
                                 <LinkHeader href="#portfolio" onClick={handleCheckboxChange}>
-                                    <Span $active={activeSection === 'portfolio'}>Portfolio</Span>
+                                    <Span className={cormorantGaramond.variable} $active={activeSection === 'portfolio'}>Portfolio</Span>
                                 </LinkHeader>
                             </Item>
                             <Item>
                                 <LinkHeader href="#price" onClick={handleCheckboxChange}>
-                                    <Span $active={activeSection === 'price'}>Tarifs</Span>
+                                    <Span className={cormorantGaramond.variable} $active={activeSection === 'price'}>Tarifs</Span>
                                 </LinkHeader>
                             </Item>
                             <Item>
                                 <LinkHeader href="#feedback" onClick={handleCheckboxChange}>
-                                    <Span $active={activeSection === 'feedback'}>Feedback</Span>
+                                    <Span className={cormorantGaramond.variable} $active={activeSection === 'feedback'}>Feedback</Span>
                                 </LinkHeader>
                             </Item>
                             <Item>
                                 <LinkHeader href="#contact" onClick={handleCheckboxChange}>
-                                    <Span $active={activeSection === 'contact'}>Contact</Span>
+                                    <Span className={cormorantGaramond.variable} $active={activeSection === 'contact'}>Contact</Span>
                                 </LinkHeader>
                             </Item>
                         </List>
