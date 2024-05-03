@@ -55,6 +55,11 @@ export const ContainerBox = styled.div`
     align-items: center;
     width: 100%;
     height: 100%;
+    padding: 10px;
+
+    @media (max-width: 1000px) {
+        flex-direction: column;
+    }
 `;
 
 export const ContainerIntro = styled.div`
@@ -63,6 +68,10 @@ export const ContainerIntro = styled.div`
     align-items: center;
     width: 400px;
     height: 100%;
+
+    @media (max-width: 1000px) {
+        width: 100%;
+    }
 `;
 
 export const Intro = styled.p`
@@ -72,6 +81,10 @@ export const Intro = styled.p`
     text-align: center;
     color: ${colors.gray};
     padding: 0 30px;
+
+    @media (max-width: 1000px) {
+        padding: 50px 10px;
+    }
 `;
 
 export const ContainerChat = styled.div`
@@ -83,6 +96,15 @@ export const ContainerChat = styled.div`
     padding-left: 10px;
     border-left: 2px ${colors.gold} dotted;
     overflow-y: auto;
+
+    @media (max-width: 1000px) {
+        width: 100%;
+        border-left: none;
+    }
+
+    @media (max-width: 600px) {
+        max-height: 800px;;
+    }
 `;
 
 export const Button = styled.button`

@@ -22,6 +22,14 @@ export const MessageUserStyle = styled.p`
     background: ${colors.gray};
     color: ${colors.darkbg};
     font-style: italic;
+
+    @media (max-width: 600px) {
+        max-width: 80%;
+    }
+
+    @media (max-width: 400px) {
+        max-width: 100%;
+    }
 `;
 
 export const MessageBotStyle = styled(MessageUserStyle)`
