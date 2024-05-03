@@ -9,6 +9,7 @@ import { Root, Container, Label, Svg, Input, Navigation, List, Item, LinkHeader,
 
 export default function Header () {
     const [activeSection, setActiveSection] = useState('');
+    const [isChecked, setIsChecked] = useState(false);
 
     useEffect(() => {
         function scroll() {
@@ -21,6 +22,10 @@ export default function Header () {
             window.removeEventListener('scroll', scroll);
         };
     }, []);
+
+    const handleCheckboxChange = () => {
+        setIsChecked(!isChecked);
+    };
     
     return (
         <Root>
@@ -32,41 +37,41 @@ export default function Header () {
                             <path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/>
                         </Svg>
                     </Label>
-                    <Input type='checkbox' id='toggler' name='menu'/>
+                    <Input type='checkbox' id='toggler' name='menu' checked={isChecked} onChange={handleCheckboxChange}/>
                     <Navigation>
                         <List>
                             <Item>
-                                <LinkHeader href="/">
+                                <LinkHeader href="/" onClick={handleCheckboxChange}>
                                     <Span $active={activeSection === 'home'}>Accueil</Span>
                                 </LinkHeader>
                             </Item>
                             <Item>
-                                <LinkHeader href="/#about">
+                                <LinkHeader href="/#about" onClick={handleCheckboxChange}>
                                     <Span $active={activeSection === 'about'}>A propos</Span>
                                 </LinkHeader>
                             </Item>
                             <Item>
-                                <LinkHeader href="#service">
+                                <LinkHeader href="#service" onClick={handleCheckboxChange}>
                                     <Span $active={activeSection === 'service'}>Services</Span>
                                 </LinkHeader>
                             </Item>
                             <Item>
-                                <LinkHeader href="#portfolio">
+                                <LinkHeader href="#portfolio" onClick={handleCheckboxChange}>
                                     <Span $active={activeSection === 'portfolio'}>Portfolio</Span>
                                 </LinkHeader>
                             </Item>
                             <Item>
-                                <LinkHeader href="#price">
+                                <LinkHeader href="#price" onClick={handleCheckboxChange}>
                                     <Span $active={activeSection === 'price'}>Tarifs</Span>
                                 </LinkHeader>
                             </Item>
                             <Item>
-                                <LinkHeader href="#feedback">
+                                <LinkHeader href="#feedback" onClick={handleCheckboxChange}>
                                     <Span $active={activeSection === 'feedback'}>Feedback</Span>
                                 </LinkHeader>
                             </Item>
                             <Item>
-                                <LinkHeader href="#contact">
+                                <LinkHeader href="#contact" onClick={handleCheckboxChange}>
                                     <Span $active={activeSection === 'contact'}>Contact</Span>
                                 </LinkHeader>
                             </Item>
