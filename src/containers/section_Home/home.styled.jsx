@@ -86,14 +86,6 @@ export const ContainerDescription = styled.div`
     }
 `;
 
-export const Description = styled.div`
-    padding: 0 20px;
-
-    @media (max-width: 600px) {
-        padding: 0;
-    }
-`;
-
 export const Text = styled.p`
     font-size: 14px;
     font-family: var(--quicksand), serif;

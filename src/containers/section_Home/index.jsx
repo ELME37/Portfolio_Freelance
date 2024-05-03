@@ -4,7 +4,7 @@ import NetworkLinks from '@/components/networkLinks';
 import Button from '@/components/button';
 
 import { Root, ContainerTitleSection, LignTitle, TitleSection, ContainerDeveloper, ContainerDeveloperDescription, Title,
-    ContainerDescription, Description, Text, ContainerImage, Image, ContainerCitation, Citation, LignCitation, Signature } from './home.styled';
+    ContainerDescription, Text, ContainerImage, Image, ContainerCitation, Citation, LignCitation } from './home.styled';
 
 export default function SectionHome () {
     return (
@@ -28,7 +28,7 @@ export default function SectionHome () {
                 </ContainerImage>
             </ContainerDeveloper>
             <ContainerCitation>
-                <Citation>"L'innovation naît de la collaboration. En tant que développeur web, chaque ligne de code que nous écrivons est une invitation à repousser les limites de ce qui est possible, en travaillant main dans la main avec nos clients pour créer des solutions technologiques qui transforment leur vision en réalité."</Citation>
+                <Citation>&quot;L'innovation naît de la collaboration. En tant que développeur web, chaque ligne de code que nous écrivons est une invitation à repousser les limites de ce qui est possible, en travaillant main dans la main avec nos clients pour créer des solutions technologiques qui transforment leur vision en réalité.&quot;</Citation>
                 <LignCitation></LignCitation>
             </ContainerCitation>
         </Root>
