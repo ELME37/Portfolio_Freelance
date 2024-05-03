@@ -1,6 +1,15 @@
 import React from 'react';
 import Link from 'next/link';
 
+import {Cormorant_Garamond} from "next/font/google"
+
+export const cormorantGaramond = Cormorant_Garamond({
+  subsets: ['latin'],
+  weight: '400',
+  variable: '--cormorant-garamond',
+
+})
+
 import NetworkLinks from '@/components/networkLinks';
 import Button from '@/components/button';
 
@@ -16,7 +25,7 @@ export default function SectionHome () {
             </ContainerTitleSection>
             <ContainerDeveloper>
                 <ContainerDeveloperDescription>
-                    <Title>Mickaël TURQUAIS</Title>
+                    <Title className={cormorantGaramond.variable}>Mickaël TURQUAIS</Title>
                     <ContainerDescription>
                         <NetworkLinks/>
                         <TextJob>Développeur front-end spécialisé en ReactJS / NextJS, créateur de solutions web innovantes et performantes.</TextJob>
