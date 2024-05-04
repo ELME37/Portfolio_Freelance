@@ -30,6 +30,7 @@ export const TitleSection = styled.h2`
     font-family: var(--quicksand), serif;
     letter-spacing: 1px;
     color: ${colors.gray};
+    text-transform: capitalize;
 `;
 
 export const ContainerDeveloper = styled.div`
