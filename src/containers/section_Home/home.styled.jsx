@@ -100,7 +100,7 @@ export const Text = styled.p`
     font-family: var(--quicksand), serif;
     text-align: start;
     color: ${colors.gray};
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 `;
 
 export const ContainerImage = styled.div`

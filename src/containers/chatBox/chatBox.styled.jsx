@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { colors } from "@/utils/colors";
 import { cormorantGaramond } from "@/utils/fonts";
 
-export const Root = styled.section`
+export const Root = styled.div`
     width: 100%;
     margin: 0 auto;
     margin-top: 80px;

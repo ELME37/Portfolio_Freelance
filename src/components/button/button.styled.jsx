@@ -7,6 +7,7 @@ export const Root = styled.button`
     font-size: 16px;
     font-family: var(--quicksand), serif;
     border: 2px ${colors.gold} solid;
+    margin-top: 20px;
     padding: 20px 30px;
     text-transform: uppercase;
     text-decoration: none;

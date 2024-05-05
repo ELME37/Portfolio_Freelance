@@ -28,7 +28,13 @@ export const Question = styled.p`
     font-size: 26px;
     font-family: var(--cormorant-garamond), serif;
     text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
     color: ${colors.white};
+
+    @media (max-width: 500px) {
+        font-size: 24px;
+    }
 `;
 
 export const Text = styled.p`
@@ -37,4 +43,8 @@ export const Text = styled.p`
     text-align: center;
     color: ${colors.gray};
     margin-top: 20px;
+
+    @media (max-width: 500px) {
+        font-size: 16px;
+    }
 `;

@@ -58,7 +58,7 @@ export const InputArea = styled.textarea`
   outline: none;
   border: 1px ${colors.gold} solid;
   background: ${colors.dark2};
-  margin: 20px 0;
+  margin-top: 20px;
   padding: 8px 16px;
   border-radius: 4px;
   font-size: 14px;
