@@ -43,7 +43,7 @@ export default function FormContact () {
           })}
         />
           <ContainerError>
-            {errors.email && <Error>L'email doit être renseigné</Error>}
+            {errors.email && <Error>L&apos;email doit être renseigné</Error>}
           </ContainerError>
  
         <InputArea type="textarea" autoComplete="none" placeholder="Message"

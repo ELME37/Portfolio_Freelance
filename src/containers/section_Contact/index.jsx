@@ -17,7 +17,7 @@ export default function SectionContact () {
             </ContainerTitleSection>
             <ContainerText>
                 <Question className={cormorantGaramond.variable}>Prêt à concrétiser votre vision ?</Question>
-                <Text className={quicksand.variable}>N'hésitez plus ! Contactez-moi dès maintenant pour transformer vos idées en réalité. Remplissez le formulaire ci-dessous et commençons dès aujourd'hui à façonner l'avenir de votre projet.</Text>
+                <Text className={quicksand.variable}>N&apos;hésitez plus ! Contactez-moi dès maintenant pour transformer vos idées en réalité. Remplissez le formulaire ci-dessous et commençons dès aujourd&apos;hui à façonner l&apos;avenir de votre projet.</Text>
             </ContainerText>
             <FormContact/>
         </Root>
