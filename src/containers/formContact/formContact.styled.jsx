@@ -14,16 +14,16 @@ export const Input = styled.input`
   position: relative;
   width: 80%;
   outline: none;
-  border: 1px ${colors.gray} solid;
-  background: rgba(0,0,0,0.15);
+  border: 1px ${colors.gold} solid;
+  background: ${colors.dark2};
   margin-top: 20px;
   padding: 8px 16px;
   border-radius: 4px;
   font-size: 14px;
-  color: #fff;
+  color: ${colors.white};
 
   &::placeholder {
-    color: rgba(255,255,255,0.5);
+    color: ${colors.gray};
   }
 
   @media (max-width: 650px) {
@@ -51,32 +51,21 @@ export const Error = styled.p`
     padding: 0;
 `;
 
-export const Button = styled.button`
-  font-weight: bold;
-  cursor: pointer;
-  background: ${colors.gray};
-  margin-top: 30px;
-  padding: 8px 20px;
-  border: 2px ${colors.gold} solid;
-  border-radius: 10px;
-  color: ${colors.gold};
-`;
-
 export const InputArea = styled.textarea`
   position: relative;
   width: 80%;
   height: 200px;
   outline: none;
-  border: 1px ${colors.gray} solid;
-  background: rgba(0,0,0,0.15);
-  margin-top: 20px;
+  border: 1px ${colors.gold} solid;
+  background: ${colors.dark2};
+  margin: 20px 0;
   padding: 8px 16px;
   border-radius: 4px;
   font-size: 14px;
-  color: #fff;
+  color: ${colors.white};
 
   &::placeholder {
-    color: rgba(255,255,255,0.5);
+    color: ${colors.gray};
   }
 
   @media (max-width: 650px) {
@@ -94,5 +83,6 @@ export const Notification = styled.p`
   text-align: center;
   color: ${({ type }) => (type === 'success' ? 'green' : 'red')};
   margin: 0;
+  margin-top : 30px;
   padding: 0;
 `;

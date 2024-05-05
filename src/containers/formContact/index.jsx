@@ -2,7 +2,9 @@ import React, { useState, useRef } from "react"
 import { useForm } from 'react-hook-form';
 import emailjs from '@emailjs/browser';
 
-import { Form, Input, InputArea, ContainerError, Error, Button, Notification } from "./formContact.styled";
+import Button from "@/components/button";
+
+import { Form, Input, InputArea, ContainerError, Error, Notification } from "./formContact.styled";
 
 export default function FormContact () {
   const [notification, setNotification] = useState({ message: '', type: '' });
@@ -11,8 +13,8 @@ export default function FormContact () {
   const { handleSubmit: handleSubmit, reset: reset, register: register, formState: { errors: errors } } = useForm();
   
   const onSubmit = async () => {
-    
-    emailjs.sendForm('service_mailtrap', 'template_wp8yxxr', form.current, 'X1apQkdCIhiwzJXJH')
+
+    emailjs.sendForm(process.env.NEXT_PUBLIC_SERVICE_ID, process.env.NEXT_PUBLIC_TEMPLATE_ID, form.current, process.env.NEXT_PUBLIC_PUBLIC_KEY)
         .then(() => {
           setNotification({ message: 'Message envoyé avec succès.', type: 'success' });
           reset();

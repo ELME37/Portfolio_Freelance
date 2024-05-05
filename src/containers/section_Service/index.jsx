@@ -25,7 +25,7 @@ export default function SectionService () {
                             <li>Design 100% personnalisé</li>
                             <li>Gestion du contenu évolutif</li>
                             <li>Optimisation de référencement SEO</li>
-                            <li>Site responsive sur tout type d'écran</li>
+                            <li>Site responsive sur tout type d&apos;écran</li>
                             <li>Formation des utilisateurs</li>
                         </ul>
                     }
@@ -41,23 +41,23 @@ export default function SectionService () {
                             <li>Flexibilité totale</li>
                             <li>Performance optimale</li>
                             <li>Optimisation de référencement SEO</li>
-                            <li>Site responsive sur tout type d'écran</li>
+                            <li>Site responsive sur tout type d&apos;écran</li>
                             <li>Formation des utilisateurs</li>
                         </ul>
                     }
                 />
                 <CardService
-                    title="Développement d'applications Web"
+                    title="Développement d&apos;applications Web"
                     logo={<Icon xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M64 96c0-35.3 28.7-64 64-64H512c35.3 0 64 28.7 64 64V352H512V96H128V352H64V96zM0 403.2C0 392.6 8.6 384 19.2 384H620.8c10.6 0 19.2 8.6 19.2 19.2c0 42.4-34.4 76.8-76.8 76.8H76.8C34.4 480 0 445.6 0 403.2zM281 209l-31 31 31 31c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-48-48c-9.4-9.4-9.4-24.6 0-33.9l48-48c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9zM393 175l48 48c9.4 9.4 9.4 24.6 0 33.9l-48 48c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l31-31-31-31c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0z"/></Icon>}
                     content={
                         <ul>
-                            <li>Conception et développement d'applications web sur mesure pour répondre à vos besoins spécifiques</li>
-                            <li>Création d'interfaces utilisateur interactives et conviviales</li>
-                            <li>Intégration de fonctionnalités avancées pour améliorer l'expérience utilisateur</li>
+                            <li>Conception et développement d&apos;applications web sur mesure pour répondre à vos besoins spécifiques</li>
+                            <li>Création d&apos;interfaces utilisateur interactives et conviviales</li>
+                            <li>Intégration de fonctionnalités avancées pour améliorer l&apos;expérience utilisateur</li>
                             <li>Performance optimale</li>
                             <li>Intégration de bases de données robustes pour gérer efficacement les données de votre application</li>
-                            <li>Tests rigoureux pour garantir la fiabilité et la sécurité de l'application</li>
-                            <li>Application responsive sur tout type d'écran</li>
+                            <li>Tests rigoureux pour garantir la fiabilité et la sécurité de l&apos;application</li>
+                            <li>Application responsive sur tout type d&apos;écran</li>
                             <li>Formation des utilisateurs</li>
                         </ul>
                     }
@@ -69,7 +69,7 @@ export default function SectionService () {
                         <ul>
                             <li>Analyse approfondie des besoins et des exigences fonctionnelles de votre projet</li>
                             <li>Conception et développement de fonctionnalités personnalisées (backend)</li>
-                            <li>Intégration de fonctionnalités innovantes pour améliorer l'expérience utilisateur (frontend)</li>
+                            <li>Intégration de fonctionnalités innovantes pour améliorer l&apos;expérience utilisateur (frontend)</li>
                             <li>Tests rigoureux pour garantir la fiabilité et la sécurité des nouvelles fonctionnalités</li>
                             <li>Formation des utilisateurs</li>
                         </ul>
@@ -78,17 +78,17 @@ export default function SectionService () {
             
             </ContainerCard>
 
-            <p>L'importance de la présence numérique dans le monde moderne
+            <p>L&apos;importance de la présence numérique dans le monde moderne
             Dans un monde de plus en plus connecté, être présent numériquement est devenu essentiel pour les entreprises et les professionnels souhaitant prospérer et rester compétitifs. Que ce soit pour promouvoir une marque, vendre des produits, ou fournir des services, une présence en ligne solide est un élément clé de la réussite dans le paysage numérique actuel.
             </p>
 
             <p>
             WordPress et React : deux piliers de la présence en ligne
-            WordPress est reconnu pour sa simplicité d'utilisation et sa large accessibilité. En tant que plateforme de gestion de contenu populaire, il offre une solution flexible pour la création et la gestion de sites web de toutes tailles, que ce soit des sites vitrine, des blogs, ou des sites e-commerce. Avec sa grande variété de thèmes et de plugins, WordPress permet de développer rapidement des sites fonctionnels et attrayants, et offre la possibilité de créer des thèmes sur mesure, 100% personnalisés pour répondre aux besoins spécifiques de chaque projet, que ce soit pour de petites entreprises ou des grandes marques.
+            WordPress est reconnu pour sa simplicité d&apos;utilisation et sa large accessibilité. En tant que plateforme de gestion de contenu populaire, il offre une solution flexible pour la création et la gestion de sites web de toutes tailles, que ce soit des sites vitrine, des blogs, ou des sites e-commerce. Avec sa grande variété de thèmes et de plugins, WordPress permet de développer rapidement des sites fonctionnels et attrayants, et offre la possibilité de créer des thèmes sur mesure, 100% personnalisés pour répondre aux besoins spécifiques de chaque projet, que ce soit pour de petites entreprises ou des grandes marques.
             </p>
 
             <p>
-            D'un autre côté, React se distingue par sa performance et sa flexibilité. Utilisé par des entreprises de renom telles que Facebook, Instagram et Airbnb, React est une bibliothèque JavaScript prisée pour son aptitude à créer des interfaces utilisateur dynamiques et réactives. Sa robustesse et son évolutivité en font un choix de prédilection pour les applications web nécessitant une haute performance et une interactivité avancée.
+            D&apos;un autre côté, React se distingue par sa performance et sa flexibilité. Utilisé par des entreprises de renom telles que Facebook, Instagram et Airbnb, React est une bibliothèque JavaScript prisée pour son aptitude à créer des interfaces utilisateur dynamiques et réactives. Sa robustesse et son évolutivité en font un choix de prédilection pour les applications web nécessitant une haute performance et une interactivité avancée.
             </p>
 
             <p>
