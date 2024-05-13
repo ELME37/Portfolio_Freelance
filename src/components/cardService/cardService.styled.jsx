@@ -92,8 +92,18 @@ export const Icon = styled.svg`
     height: 80%;
     fill: ${colors.gold};
 
+    @media (max-width: 450px) {
+        width: 60%;
+        height: 60%;
+    }
+
     ${Root}:hover & {
         fill: ${colors.white};
+
+        @media (max-width: 450px) {
+            width: 80%;
+            height: 80%;
+        }
     }
 `;
 

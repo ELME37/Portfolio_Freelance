@@ -25,7 +25,7 @@ export default function NetworkLinks () {
                 </SvgEmail>
                 <Span className={quicksand.variable}>Email</Span>
             </NetworkLink>
-            <NetworkLink href=''>
+            <NetworkLink href='https://www.malt.fr/profile/mickaelturquais?overview'>
                 <Image src="/assets/images/logo malt.png" alt="logo malt" />
                 <Span className={quicksand.variable}>Malt - Freelance</Span>
             </NetworkLink>
