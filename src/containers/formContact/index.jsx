@@ -22,8 +22,12 @@ export default function FormContact () {
         .catch ((error) => {
           setNotification({ message: "Erreur lors de l'envoi du message", type: 'error' });
           console.log('An error occurred during message send: ', error);
+        })
+        .finally(() => {
+          setTimeout(() => {
+            setNotification({ message: '', type: '' });
+          }, 5000);
         });
-
       }
   return (
       <Form ref={form} onSubmit={handleSubmit(onSubmit)}>

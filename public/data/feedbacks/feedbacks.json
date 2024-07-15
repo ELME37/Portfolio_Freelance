@@ -1,0 +1,57 @@
+[
+  {
+    "_id": "66433d725455d4a2200e8c08",
+    "userId": "664293115455d4a2200e8be3",
+    "firstName": "Aline",
+    "lastName": "LEPETIT",
+    "position": "Responsable Ressources Humaines",
+    "company": "BRIAULT",
+    "relationship": "Collègue et prestataire ",
+    "recommendation": "Mickaël est à l'écoute du besoin, il accompagne et oriente avec sa prise de recul. Avec sa capacité d'analyse il s'est parfaitement s'adapter en fonction du projet. Le rendu est intuitif, ludique et répond à la demande . D'un esprit créatif et avec son humour nous avons toujours envie de travailler avec Mickael. Très bonne technique, maîtrise. Merci Mickaël \n",
+    "__v": 0
+  },
+  {
+    "_id": "66437a595455d4a2200e8c27",
+    "userId": "664293115455d4a2200e8be3",
+    "firstName": "Inès ",
+    "lastName": "CASSAR",
+    "position": "Chargée de missions RH",
+    "company": "BRIAND Construction",
+    "relationship": "Ancien collègue",
+    "recommendation": "Mickael se démarque par son adaptabilité, sa rapidité à relever de nouveaux défis et à répondre aux besoins changeants dans un environnement professionnel dynamique. De plus, son écoute attentive renforce la communication et favorise la réalisation des différents projets. Sa rigueur et son engagement transparaissent dans son souci du détail et sa quête permanente de qualité dans toutes ses missions.",
+    "__v": 0
+  },
+  {
+    "_id": "6643ba7b5455d4a2200e8c3d",
+    "userId": "664293115455d4a2200e8be3",
+    "firstName": "Sandra",
+    "lastName": "Racamier",
+    "position": "Direction ressources ",
+    "company": "Mairie de Villemandeur ",
+    "relationship": "Ancienne responsable  apprentissage ",
+    "recommendation": "Solides connaissances dans le domaine scolaire suivi, bonne maîtrise de l'outil informatique, esprit d'initiative et d'équipe, intégration facile au sein de la collectivité. Agréable et très ouvert envers les autres ",
+    "__v": 0
+  },
+  {
+    "_id": "6644c6cd4f220b891b005e92",
+    "userId": "664293115455d4a2200e8be3",
+    "firstName": "William",
+    "lastName": "Malbos",
+    "position": "Développeur fullstack",
+    "company": "WeSoftOnline",
+    "relationship": "Mentor OpenClassrooms",
+    "recommendation": "Travailler avec Mickaël sur le parcours d'OpenClassrooms a été une expérience vraiment enrichissante. Il a une grande capacité à comprendre rapidement les besoins des projets et à y répondre de manière efficace. Son professionnalisme et son engagement à livrer un travail de qualité sont évidents pour chacun des projets.\n\nDe plus, Mickaël démontre une grande curiosité et une volonté constante d'apprendre et de s'améliorer. Je le recommande vivement à toute personne recherchant un professionnel fiable et compétent, Mickaël sera un très bon atout pour toute équipe !",
+    "__v": 0
+  },
+  {
+    "_id": "9999",
+    "userId": "664293115455d4a2200e8be3",
+    "firstName": "Bruno",
+    "lastName": "Héritier",
+    "position": "Développeur Web fullstack",
+    "company": "OpenClassRooms",
+    "relationship": "Mentor OpenClassrooms",
+    "recommendation": "Je recommande chaleureusement Mickaël Turquais en tant que développeur Web. En effet, j’ai eu le plaisir de cotoyer Mickael au cours de sa formation dans le cadre du parcours OpenClassrooms - Développeur d’applications React - et j'ai été impressionné par ses compétences techniques et son enthousiasme pour le développement web. Pendant les quelques mois passés ensemble à échanger chaque semaine, il a démontré une maîtrise remarquable des technologies web modernes, y compris HTML, CSS, JavaScript, ainsi que des frameworks tels que React et Node.js / Express. Son aptitude à apprendre rapidement de nouvelles technologies et à les appliquer de manière efficace à des projets réels a été particulièrement notable.",
+    "__v": 0
+  }
+]
